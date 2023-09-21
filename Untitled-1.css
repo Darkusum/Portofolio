@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F363D;
+    font-family: "Arial", sans-serif; /* Utilisation d'une police de caractères générique pour la lisibilité */
+}
+
+.navbar {
+    height: 100%; /* Ajustez la hauteur en pourcentage pour qu'elle s'adapte au contenu */
+    /* mettre le width ou pas ?*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0c4457;
+    padding-top: 80px; /* marge pour le logo*/
+    display: flex;
+    flex-direction: column; /* Afficher les liens de navigation verticalement */
+}
+
+.navbar a {
+    padding: 20px 0; /* Réduisez l'espacement vertical entre les liens */
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 40px; /* Ajustez la largeur des liens pour remplir complètement le conteneur */
+    text-align: center; /* Centrez le texte à l'intérieur du conteneur */
+}
+
+.navbar img {
+    width: 30px; /* Ajustez la largeur selon la taille souhaitée */
+    height: auto; /* Laissez la hauteur ajustée automatiquement pour maintenir les proportions */
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 900px; /* Limitez la largeur du contenu principal */
+    margin: 20px auto; /* Centrez le contenu sur la page */
+    padding: 20px;
+}
+
+h1, p {
+    font-family: "gluten";
+    font-size: 30px;
+    color: #ffffff;
+    border: 5px rgba(red, green, rgb(28, 28, 196), 0.5) }
+
+h2{
+    font-family: "gluten";
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.section   {
+        border: 1px solid #041D25;
+        padding-bottom: 180px; /* Ajout d'une marge intérieure pour l'espace entre les éléments */
+        background: #041D25;
+        display: flex;
+        justify-content: center; /* Centrez les éléments horizontalement */
+        margin: 100px auto; /* Centrez le contenu sur la page */
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+      }
+      
+.footer {
+        background-color: #1F363D;
+        color: white;
+        padding: 20px;
+        bottom:0;
+        }
+
+.footer img{
+    width: 30px; /* Ajustez la largeur selon la taille souhaitée */
+    height: auto; /* Laissez la hauteur ajustée automatiquement pour maintenir les proportions */
+}
+
